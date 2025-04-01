@@ -15,10 +15,27 @@
 /*Global styles*/
 
 body {
-    font-family: var(--primary-font);
-    background-color: var(--background-color-light);
+    font-family: var(--primary-font); /*Open Sans*/
+    background-color: var(--background-color-light); /*peach*/
 }
 
 h1, h2, h3 {
-    color: var(--primary-color);
+    color: var(--primary-color);/* dark blue */
+}
+
+/*Navbar styles*/
+
+#navbar {
+    font-weight: bold;
+    background-color: var(--primary-color);
+}
+
+#logo {
+    font-size: 2rem;
+    color: var(--background-color-light);
+}
+
+/*to color text in navbar*/
+.nav-link-color {
+    color: var(--highlight-color) /*sage*/
 }
