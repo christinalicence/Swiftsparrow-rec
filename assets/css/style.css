@@ -21,7 +21,10 @@ body {
 
 h1, h2, h3 {
     color: var(--primary-color);/* dark blue */
+    font-family: var(--secondary-font)
+    
 }
+
 
 /*Navbar styles*/
 
@@ -38,4 +41,16 @@ h1, h2, h3 {
 /*to color text in navbar*/
 .nav-link-color {
     color: var(--highlight-color) /*sage*/
+}
+
+
+/*Footer*/
+#footer {
+    background-color: var(--primary-color); /*dark blue*/
+    color: var(--highlight-color); /*sage*/
+    padding: 20px;
+}
+
+#footer h3 {
+    color: var(--highlight-color); /*sage*/
 }
