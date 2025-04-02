@@ -54,3 +54,8 @@ h1, h2, h3 {
 #footer h3 {
     color: var(--highlight-color); /*sage*/
 }
+
+.social-links {
+    font-size: 1.5rem;
+    color: var(--highlight-color);
+}
