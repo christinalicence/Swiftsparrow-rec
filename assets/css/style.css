@@ -55,7 +55,13 @@ h1, h2, h3 {
     color: var(--highlight-color); /*sage*/
 }
 
-.social-links {
+.social-link {
     font-size: 1.5rem;
     color: var(--highlight-color);
+    text-decoration: none;
+}
+
+/*to give some space around links in the footer*/
+.footer-link {
+    padding: 0.2rem;
 }
