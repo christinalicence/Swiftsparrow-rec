@@ -21,8 +21,23 @@ body {
 
 h1, h2, h3 {
     color: var(--primary-color);/* dark blue */
-    font-family: var(--secondary-font)
+    font-family: var(--secondary-font);
+
     
+}
+
+/*Home-page styles*/
+
+#hero-text {
+    text-transform: uppercase;
+    font-size: 7rem;
+    color: var(--background-color-dark);
+}
+
+#sub-hero-text {
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: var(--background-color-dark);
 }
 
 
