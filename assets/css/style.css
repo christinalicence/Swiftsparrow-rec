@@ -5,6 +5,7 @@
 :root {
     --primary-font: "Open Sans", sans-serif;
     --secondary-font: "Montserrat", sans-serif;
+    --third-font: "Raleway", sans-serif;
     --primary-color: #2B3A67; /* dark blue */
     --secondary-color: #496A81; /* blue-grey */
     --highlight-color: #B3AF8F; /* sage*/
@@ -21,23 +22,26 @@ body {
 
 h1, h2, h3 {
     color: var(--primary-color);/* dark blue */
-    font-family: var(--secondary-font);
-
-    
+    font-family: var(--secondary-font);    
 }
 
 /*Home-page styles*/
+.main-section {
+    padding: 32px;
+}
 
 #hero-text {
     text-transform: uppercase;
+    font-family: var(--third-font); /*Raleway*/
     font-size: 7rem;
-    color: var(--background-color-dark);
+    color: var(--background-color-dark); /*turquoise*/
 }
 
 #sub-hero-text {
     text-transform: uppercase;
+    font-family: var(--third-font); /*Raleway*/
     font-size: 3rem;
-    color: var(--background-color-dark);
+    color: var(--background-color-dark); /*turquoise*/
 }
 
 
