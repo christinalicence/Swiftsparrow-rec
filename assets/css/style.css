@@ -25,16 +25,22 @@ h1, h2, h3 {
     font-family: var(--secondary-font);    
 }
 
-/*Home-page styles*/
-.main-section {
+.normal-text {
+    font-family: var(--primary-font); /*Open Sans*/
+    color: var(--primary-color); /*dark blue*/
     padding: 32px;
+   
 }
+
+/*Home-page styles*/
+
 
 #hero-text {
     text-transform: uppercase;
     font-family: var(--third-font); /*Raleway*/
     font-size: 7rem;
     color: var(--background-color-dark); /*turquoise*/
+    padding-left: 32px;
 }
 
 #sub-hero-text {
@@ -42,6 +48,14 @@ h1, h2, h3 {
     font-family: var(--third-font); /*Raleway*/
     font-size: 3rem;
     color: var(--background-color-dark); /*turquoise*/
+    padding-left: 32px;
+}
+
+#bird-image {
+    width: 75%;
+    height: auto;
+    max-width: 500px;
+    margin: auto;
 }
 
 
