@@ -29,6 +29,7 @@ h1, h2, h3 {
     font-family: var(--primary-font); /*Open Sans*/
     color: var(--primary-color); /*dark blue*/
     padding: 32px;
+    font-size: large;
    
 }
 
@@ -38,15 +39,16 @@ h1, h2, h3 {
 #hero-text {
     text-transform: uppercase;
     font-family: var(--third-font); /*Raleway*/
-    font-size: 7rem;
+    font-size: 8rem;
     color: var(--background-color-dark); /*turquoise*/
-    padding-left: 32px;
+    padding-left: 40px;
+    padding-top: 72px;
 }
 
 #sub-hero-text {
     text-transform: uppercase;
     font-family: var(--third-font); /*Raleway*/
-    font-size: 3rem;
+    font-size: 4rem;
     color: var(--background-color-dark); /*turquoise*/
     padding-left: 32px;
 }
@@ -56,6 +58,7 @@ h1, h2, h3 {
     height: auto;
     max-width: 500px;
     margin: auto;
+    padding-top: 64px;
 }
 
 
@@ -69,6 +72,7 @@ h1, h2, h3 {
 #logo {
     font-size: 2rem;
     color: var(--background-color-light);
+    padding-left: 16px;
 }
 
 /*to color text in navbar*/
@@ -97,4 +101,5 @@ h1, h2, h3 {
 /*to give some space around links in the footer*/
 .footer-link {
     padding: 0.2rem;
+    color: var(--highlight-color); /*sage*/
 }
