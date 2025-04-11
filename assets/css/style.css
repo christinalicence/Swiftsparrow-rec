@@ -6,31 +6,43 @@
     --primary-font: "Open Sans", sans-serif;
     --secondary-font: "Montserrat", sans-serif;
     --third-font: "Raleway", sans-serif;
-    --primary-color: #2B3A67; /* dark blue */
-    --secondary-color: #496A81; /* blue-grey */
-    --highlight-color: #B3AF8F; /* sage*/
-    --background-color-light: #FFC482; /* peach */
-    --background-color-dark: #66999B; /*turquoise*/
+    --primary-color: #2B3A67;
+    /* dark blue */
+    --secondary-color: #496A81;
+    /* blue-grey */
+    --highlight-color: #b3af8f;
+    /* sage*/
+    --background-color-light: #FFC482;
+    /* peach */
+    --background-color-dark: #66999B;
+    /*turquoise*/
 }
 
 /*Global styles*/
 
 body {
-    font-family: var(--primary-font); /*Open Sans*/
-    background-color: var(--background-color-light); /*peach*/
+    font-family: var(--primary-font);
+    /*Open Sans*/
+    background-color: var(--background-color-light);
+    /*peach*/
 }
 
-h1, h2, h3 {
-    color: var(--primary-color);/* dark blue */
-    font-family: var(--secondary-font);    
+h1,
+h2,
+h3 {
+    color: var(--primary-color);
+    /* dark blue */
+    font-family: var(--secondary-font);
 }
 
 .normal-text {
-    font-family: var(--primary-font); /*Open Sans*/
-    color: var(--primary-color); /*dark blue*/
+    font-family: var(--primary-font);
+    /*Open Sans*/
+    color: var(--primary-color);
+    /*dark blue*/
     padding: 32px;
     font-size: large;
-   
+
 }
 
 /*Home-page styles*/
@@ -38,18 +50,22 @@ h1, h2, h3 {
 
 #hero-text {
     text-transform: uppercase;
-    font-family: var(--third-font); /*Raleway*/
+    font-family: var(--third-font);
+    /*Raleway*/
     font-size: 8rem;
-    color: var(--background-color-dark); /*turquoise*/
+    color: var(--background-color-dark);
+    /*turquoise*/
     padding-left: 40px;
     padding-top: 72px;
 }
 
 #sub-hero-text {
     text-transform: uppercase;
-    font-family: var(--third-font); /*Raleway*/
+    font-family: var(--third-font);
+    /*Raleway*/
     font-size: 4rem;
-    color: var(--background-color-dark); /*turquoise*/
+    color: var(--background-color-dark);
+    /*turquoise*/
     padding-left: 32px;
 }
 
@@ -61,6 +77,12 @@ h1, h2, h3 {
     padding-top: 64px;
 }
 
+#text-image {
+    width: 75%;
+    height: 23x;
+    max-width: 400px;
+    margin: auto;
+}
 
 /*Navbar styles*/
 
@@ -77,29 +99,58 @@ h1, h2, h3 {
 
 /*to color text in navbar*/
 .nav-link-color {
-    color: var(--highlight-color) /*sage*/
+    color: var(--highlight-color)
+        /*sage*/
 }
 
 
 /*Footer*/
 #footer {
-    background-color: var(--primary-color); /*dark blue*/
-    color: var(--highlight-color); /*sage*/
+    background-color: var(--primary-color);
+    /*dark blue*/
+    color: var(--highlight-color);
+    /*sage*/
     padding: 20px;
 }
 
 #footer h3 {
-    color: var(--highlight-color); /*sage*/
+    color: var(--highlight-color);
+    /*sage*/
 }
 
 .social-link {
-    font-size: 1.5rem;
-    color: var(--highlight-color);
+    color: var(--highlight-color);/*sage*/
     text-decoration: none;
 }
 
 /*to give some space around links in the footer*/
 .footer-link {
     padding: 0.2rem;
-    color: var(--highlight-color); /*sage*/
+    color: var(--highlight-color);
+    /*sage*/
+}
+
+/*Contact page styles*/
+
+.contact-form {
+    padding: 32px;
+    color: var(--primary-color);
+    /*dark blue*/
+    font-family: var(--primary-font);
+    /*Open Sans*/
+}
+
+#send-button {
+    background-color: var(--primary-color);
+    /*dark blue*/
+    color: var(--highlight-color);
+    /*sage*/
+    font-family: var(--primary-font);
+    /*Open Sans*/
+    font-weight: bold;
+    padding: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
 }
