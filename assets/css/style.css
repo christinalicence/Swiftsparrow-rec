@@ -167,3 +167,14 @@ h3 {
     transition: background-color 0.3s ease;
 }
 
+/*Looking for a job page styles*/
+
+.job-card {
+    background-color: var(--background-color-dark);
+    /*turquoise*/
+    color: var(--highlight-color);
+    /*sage*/
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
