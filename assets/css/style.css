@@ -49,7 +49,7 @@ h2,{
 
 #hero-text {
     font-size: 8rem;
-    padding-left: 40px;
+    padding: 40px;
     padding-top: 72px;
     text-transform: uppercase;
     color: var(--background-color-dark);
@@ -116,6 +116,7 @@ h2,{
     /* turquoise/moonstone*/
     color: var(--highlight-color);
     /*Cream/Vanilla*/
+}
 
 #footer .row {
     display: flex;
@@ -173,9 +174,31 @@ h2,{
 .job-card {
     background-color: var(--background-color-dark);
     /*Orange/Atomic Tangerine*/
-    color: var(--highlight-color);
-    /*Cream/Vanilla*/
+    color: var(--background-color-light);
+    /* Light pink/Babypwoder*/
     padding: 16px;
     border-radius: 8px;
     margin-bottom: 16px;
+    font-family: var(--primary-font); /*Open Sans*/
+}
+
+.job-button {
+    background-color: var(--primary-color);
+    /* turquoise/moonstone*/
+    color: var(--background-color-light);
+    /* Light pink/Babypwoder*/
+    font-family: var(--primary-font); /*Open Sans*/
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.job-button:hover {
+    background-color: var(--highlight-color);
+    /*Cream/Vanilla*/
+    color: var(--primary-color);
+    /* turquoise/moonstone*/
 }
