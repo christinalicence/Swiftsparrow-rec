@@ -6,16 +6,16 @@
     --primary-font: "Open Sans", sans-serif;
     --secondary-font: "Montserrat", sans-serif;
     --third-font: "Raleway", sans-serif;
-    --primary-color: #2B3A67;
-    /* dark blue */
-    --secondary-color: #496A81;
-    /* blue-grey */
-    --highlight-color: #b3af8f;
-    /* sage*/
-    --background-color-light: #FFC482;
-    /* peach */
-    --background-color-dark: #66999B;
-    /*turquoise*/
+    --primary-color: #0FA3B1;
+    /* turquoise/moonstone*/
+    --secondary-color: #B5E2FA;
+    /* light-blue */
+    --highlight-color: #EDDEA4;;
+    /*Cream/Vanilla*/
+    --background-color-light: #F9F7F3;
+    /* Light pink/Babypwoder*/
+    --background-color-dark: #F7A072;
+    /*Orange/Atomic Tangerine*/
 }
 
 /*Global styles*/
@@ -24,14 +24,13 @@ body {
     font-family: var(--primary-font);
     /*Open Sans*/
     background-color: var(--background-color-light);
-    /*peach*/
+    /* Light pink/Babypwoder*/
 }
 
 h1,
-h2,
-h3 {
-    color: var(--primary-color);
-    /* dark blue */
+h2,{
+    color: var(--background-color-dark);
+    /*Orange/Atomic Tangerine*/
     font-family: var(--secondary-font);
 }
 
@@ -39,7 +38,7 @@ h3 {
     font-family: var(--primary-font);
     /*Open Sans*/
     color: var(--primary-color);
-    /*dark blue*/
+    /* turquoise/moonstone*/
     padding: 32px;
     font-size: large;
 
@@ -54,6 +53,8 @@ h3 {
     padding-top: 72px;
     text-transform: uppercase;
     color: var(--background-color-dark);
+    /*Orange/Atomic Tangerine*/
+    letter-spacing: 0.1rem;
 }
 
 #bird-image img {
@@ -71,7 +72,7 @@ h3 {
     /*Raleway*/
     font-size: 4rem;
     color: var(--background-color-dark);
-    /*turquoise*/
+    /*Orange/Atomic Tangerine*/
     width: 100%;
     text-align: center; 
     margin: 0 auto; 
@@ -79,9 +80,13 @@ h3 {
 
 #text-image {
     width: 90%;
-    height: auto;
+    max-height: 300px;
+    max-width: 300px;
     margin: auto;
     border-radius: 15px;
+    align-self: center;
+    display: block;
+    justify-self: center;
 }
 
 /*Navbar styles*/
@@ -93,14 +98,13 @@ h3 {
 
 #logo {
     font-size: 2rem;
-    color: var(--background-color-light);
+    color: var(--highlight-color); /*Cream/Vanilla*/
     padding-left: 16px;
 }
 
 /*to color text in navbar*/
 .nav-link-color {
-    color: var(--highlight-color)
-        /*sage*/
+    color: var(--highlight-color); /*Cream/Vanilla*/
 }
 
 
@@ -108,9 +112,10 @@ h3 {
 #footer {
     width: 100%;
     padding: 20px;
-    background-color: var(--primary-color); /* Dark blue */
-    color: var(--highlight-color); /* Sage */
-}
+    background-color: var(--primary-color);
+    /* turquoise/moonstone*/
+    color: var(--highlight-color);
+    /*Cream/Vanilla*/
 
 #footer .row {
     display: flex;
@@ -127,37 +132,33 @@ h3 {
 }
 
 #footer h3 {
-    color: var(--highlight-color);
-    /*sage*/
+    color: var(--highlight-color); /*Cream/Vanilla*/
 }
 
 .social-link {
-    color: var(--highlight-color);/*sage*/
+    color: var(--highlight-color); /*Cream/Vanilla*/
     text-decoration: none;
 }
 
 /*to give some space around links in the footer*/
 .footer-link {
     padding: 0.2rem;
-    color: var(--highlight-color);
-    /*sage*/
+    color: var(--highlight-color); /*Cream/Vanilla*/
 }
 
 /*Contact page styles*/
 
 .contact-form {
     padding: 32px;
-    color: var(--primary-color);
-    /*dark blue*/
-    font-family: var(--primary-font);
-    /*Open Sans*/
+    color: var(--primary-color); /* turquoise/moonstone*/
+    font-family: var(--primary-font); /*Open Sans*/
 }
 
 #send-button {
     background-color: var(--primary-color);
-    /*dark blue*/
+    /* turquoise/moonstone*/
     color: var(--highlight-color);
-    /*sage*/
+    /*Cream/Vanilla*/
     font-family: var(--primary-font); /*Open Sans*/
     font-weight: bold;
     padding: 12px;
@@ -171,9 +172,9 @@ h3 {
 
 .job-card {
     background-color: var(--background-color-dark);
-    /*turquoise*/
+    /*Orange/Atomic Tangerine*/
     color: var(--highlight-color);
-    /*sage*/
+    /*Cream/Vanilla*/
     padding: 16px;
     border-radius: 8px;
     margin-bottom: 16px;
