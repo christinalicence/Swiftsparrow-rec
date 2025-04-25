@@ -39,7 +39,8 @@ h2 {
     /*Orange/Atomic Tangerine*/
     font-family: var(--secondary-font);
     text-align: right;
-    padding: 40px;
+    padding: 32px;
+    padding-right: 56px;
     font-size: 3rem;
 }
 
