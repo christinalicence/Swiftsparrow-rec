@@ -34,12 +34,31 @@ h2 {
     font-family: var(--secondary-font);
 }
 
+.h3-right {
+    color: var(--background-color-dark);
+    /*Orange/Atomic Tangerine*/
+    font-family: var(--secondary-font);
+    text-align: right;
+    padding: 40px;
+    font-size: 3rem;
+}
+
+.h3-left {
+    color: var(--background-color-dark);
+    /*Orange/Atomic Tangerine*/
+    font-family: var(--secondary-font);
+    text-align: left;
+    padding: 40px;
+    font-size: 3rem;
+}
+
+
 .normal-text {
     font-family: var(--primary-font);
     /*Open Sans*/
-    color: var(--primary-color);
-    /* turquoise/moonstone*/
-    padding: 32px;
+    color: #36454F;
+   /*dark-gray*/
+    padding: 48px;
     font-size: large;
 
 }
@@ -66,7 +85,7 @@ h2 {
     padding-top: 20px;
 }
 
-#sub-hero-text {
+.sub-hero-text {
     text-transform: uppercase;
     font-family: var(--third-font);
     /*Raleway*/
@@ -80,8 +99,8 @@ h2 {
 
 #text-image {
     width: 90%;
-    max-height: 300px;
-    max-width: 300px;
+    max-height: 200px;
+    max-width: 400px;
     margin: auto;
     border-radius: 15px;
     align-self: center;
@@ -170,6 +189,11 @@ h2 {
 }
 
 /*Looking for a job page styles*/
+
+.job-section {
+    padding: 40px;
+}
+
 
 .job-card {
     background-color: var(--background-color-dark);
