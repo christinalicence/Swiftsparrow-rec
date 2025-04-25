@@ -38,9 +38,8 @@ h2 {
     color: var(--background-color-dark);
     /*Orange/Atomic Tangerine*/
     font-family: var(--secondary-font);
-    text-align: right;
-    padding: 32px;
-    padding-right: 56px;
+    text-align: center ;
+    padding: 16px;
     font-size: 3rem;
 }
 
@@ -197,7 +196,7 @@ h2 {
 
 #arrow-img {
     text-align: center;
-    padding: 32px;
+    padding: 16px;
     font-size: 8rem
 }
 
@@ -206,6 +205,7 @@ h2 {
     /*Orange/Atomic Tangerine*/
     color: var(--background-color-light);
     /* Light pink/Babypwoder*/
+    height: 100%;
     padding: 16px;
     border-radius: 8px;
     margin-bottom: 16px;
