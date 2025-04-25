@@ -194,6 +194,11 @@ h2 {
     padding: 40px;
 }
 
+#arrow-img {
+    text-align: center;
+    padding: 32px;
+    font-size: 8rem
+}
 
 .job-card {
     background-color: var(--background-color-dark);
