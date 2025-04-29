@@ -10,7 +10,7 @@
     /* turquoise/moonstone*/
     --secondary-color: #B5E2FA;
     /* light-blue */
-    --highlight-color: #EDDEA4;;
+    --highlight-color: #EDDEA4;
     /*Cream/Vanilla*/
     --background-color-light: #F9F7F3;
     /* Light pink/Babypwoder*/
@@ -201,7 +201,7 @@ h2 {
 #arrow-img {
     text-align: center;
     padding: 16px;
-    font-size: 8rem
+    font-size: 8rem;
 }
 
 .job-card {
@@ -249,6 +249,8 @@ h2 {
 
 /*Thank you page styles*/
 
-#phone-number {
+#phone-link {
     text-decoration: none;
+    font-weight: bold;
+    color: #36454F;
 }
