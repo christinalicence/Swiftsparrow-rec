@@ -28,7 +28,7 @@ body {
 }
 
 .main-content {
-    padding-top:42px
+    padding-top:42px;
 }
 
 h1,
@@ -101,16 +101,18 @@ h2 {
     margin: 0 auto; 
 }
 
-#text-image {
-    width: 90%;
-    max-height: 200px;
-    max-width: 400px;
-    margin: auto;
-    border-radius: 15px;
-    align-self: center;
-    display: block;
-    justify-self: center;
+#quote {
+    font-family: var(--third-font);
+    font-size: 1.5rem;
+    background-color: var(--background-color-dark);
+    color: var(--background-color-light);   
+    text-align: center;
+    padding: 16px;
+    border-radius: 8px;
+    margin: 0 auto;
+
 }
+
 
 /*Navbar styles*/
 
