@@ -221,7 +221,6 @@ h2 {
   font-weight: bold;
   padding: 12px;
   border-radius: 8px;
-  cursor: pointer;
   border: none;
   transition: background-color 0.3s ease;
 }
@@ -252,18 +251,29 @@ h2 {
 
 /*Data Policy page styles*/
 
+#data-policy {
+  padding: 24px;
+  font-family: var(--primary-font);
+  /*Open Sans*/
+  color: #36454f;
+}
+
 #policy-header {
   font-size: 3rem;
   font-family: var(--secondary-font);
-  padding: 4px;
-  color: #36454f;
+  padding: 4px
 }
 
 .list-header {
   font-family: var(--primary-font);
-  padding: 4px;
+  padding: 8px;
   font-size: 1.5rem;
   font-weight: bold;
-  color: #36454f;
-
 }
+
+.policy-link {
+  color: var(--primary-color);
+  /* turquoise/moonstone*/
+  text-decoration: none;
+}
+
