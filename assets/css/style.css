@@ -29,6 +29,8 @@ body {
 
 .main-content {
   padding-top: 42px;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
 }
 
 h1,
@@ -63,6 +65,25 @@ h2 {
   /*dark-gray*/
   padding: 48px;
   font-size: large;
+}
+
+.custom-button {
+  background-color: var(--primary-color);
+  /* turquoise/moonstone*/
+  color: var(--background-color-light);
+  /* Light pink/Babypwoder*/
+  font-family: var(--primary-font); /*Open Sans*/
+  font-weight: bold;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: var(--highlight-color);
+  /*Cream/Vanilla*/
+  color: var(--primary-color);
 }
 
 /*Home-page styles*/
@@ -104,9 +125,8 @@ h2 {
   background-color: var(--background-color-dark);
   color: var(--background-color-light);
   text-align: center;
-  padding: 16px;
+  padding: 32px;
   border-radius: 8px;
-  margin: 0 auto;
 }
 
 /*Navbar styles*/
@@ -183,11 +203,13 @@ h2 {
   font-weight: bold;
   padding: 12px;
   border-radius: 8px;
-  cursor: pointer;
   border: none;
   transition: background-color 0.3s ease;
 }
 
+#cv-send {
+  color: var(--primary-color);
+}
 /*Looking for a job page styles*/
 
 .job-section {
@@ -212,25 +234,6 @@ h2 {
   font-family: var(--primary-font); /*Open Sans*/
 }
 
-.job-button {
-  background-color: var(--primary-color);
-  /* turquoise/moonstone*/
-  color: var(--background-color-light);
-  /* Light pink/Babypwoder*/
-  font-family: var(--primary-font); /*Open Sans*/
-  font-weight: bold;
-  padding: 12px;
-  border-radius: 8px;
-  border: none;
-  transition: background-color 0.3s ease;
-}
-
-.job-button:hover {
-  background-color: var(--highlight-color);
-  /*Cream/Vanilla*/
-  color: var(--primary-color);
-  /* turquoise/moonstone*/
-}
 
 .job-image {
   width: 100%;
