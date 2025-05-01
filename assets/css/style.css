@@ -1,258 +1,269 @@
 /*Google fonts import*/
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
 /*CSS variables*/
 :root {
-    --primary-font: "Open Sans", sans-serif;
-    --secondary-font: "Montserrat", sans-serif;
-    --third-font: "Raleway", sans-serif;
-    --primary-color: #0FA3B1;
-    /* turquoise/moonstone*/
-    --secondary-color: #B5E2FA;
-    /* light-blue */
-    --highlight-color: #EDDEA4;
-    /*Cream/Vanilla*/
-    --background-color-light: #F9F7F3;
-    /* Light pink/Babypwoder*/
-    --background-color-dark: #F7A072;
-    /*Orange/Atomic Tangerine*/
+  --primary-font: "Open Sans", sans-serif;
+  --secondary-font: "Montserrat", sans-serif;
+  --third-font: "Raleway", sans-serif;
+  --primary-color: #0fa3b1;
+  /* turquoise/moonstone*/
+  --secondary-color: #b5e2fa;
+  /* light-blue */
+  --highlight-color: #eddea4;
+  /*Cream/Vanilla*/
+  --background-color-light: #f9f7f3;
+  /* Light pink/Babypwoder*/
+  --background-color-dark: #f7a072;
+  /*Orange/Atomic Tangerine*/
 }
 
 /*Global styles*/
 
 body {
-    font-family: var(--primary-font);
-    /*Open Sans*/
-    background-color: var(--background-color-light);
-    /* Light pink/Babypwoder*/
+  font-family: var(--primary-font);
+  /*Open Sans*/
+  background-color: var(--background-color-light);
+  /* Light pink/Babypwoder*/
 }
 
 .main-content {
-    padding-top:42px;
+  padding-top: 42px;
 }
 
 h1,
 h2 {
-    color: var(--background-color-dark);
-    /*Orange/Atomic Tangerine*/
-    font-family: var(--secondary-font);
+  color: var(--background-color-dark);
+  /*Orange/Atomic Tangerine*/
+  font-family: var(--secondary-font);
 }
 
 .h3-right {
-    color: var(--background-color-dark);
-    /*Orange/Atomic Tangerine*/
-    font-family: var(--secondary-font);
-    text-align: center ;
-    padding: 16px;
-    font-size: 3rem;
+  color: var(--background-color-dark);
+  /*Orange/Atomic Tangerine*/
+  font-family: var(--secondary-font);
+  text-align: center;
+  padding: 16px;
+  font-size: 3rem;
 }
 
 .h3-left {
-    color: var(--background-color-dark);
-    /*Orange/Atomic Tangerine*/
-    font-family: var(--secondary-font);
-    text-align: left;
-    padding: 40px;
-    font-size: 3rem;
+  color: var(--background-color-dark);
+  /*Orange/Atomic Tangerine*/
+  font-family: var(--secondary-font);
+  text-align: left;
+  padding: 40px;
+  font-size: 3rem;
 }
 
-
 .normal-text {
-    font-family: var(--primary-font);
-    /*Open Sans*/
-    color: #36454F;
-   /*dark-gray*/
-    padding: 48px;
-    font-size: large;
-
+  font-family: var(--primary-font);
+  /*Open Sans*/
+  color: #36454f;
+  /*dark-gray*/
+  padding: 48px;
+  font-size: large;
 }
 
 /*Home-page styles*/
 
-
 #hero-text {
-    font-size: 8rem;
-    padding: 40px;
-    padding-top: 72px;
-    text-transform: uppercase;
-    color: var(--background-color-dark);
-    /*Orange/Atomic Tangerine*/
-    letter-spacing: 0.1rem;
+  font-size: 8rem;
+  padding: 40px;
+  padding-top: 72px;
+  text-transform: uppercase;
+  color: var(--background-color-dark);
+  /*Orange/Atomic Tangerine*/
+  letter-spacing: 0.1rem;
 }
 
 #bird-image img {
-    width: 100%;
-    max-width: 500px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    padding-top: 20px;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
 }
 
 .sub-hero-text {
-    text-transform: uppercase;
-    font-family: var(--third-font);
-    /*Raleway*/
-    font-size: 4rem;
-    color: var(--background-color-dark);
-    /*Orange/Atomic Tangerine*/
-    width: 100%;
-    text-align: center; 
-    margin: 0 auto; 
+  text-transform: uppercase;
+  font-family: var(--third-font);
+  /*Raleway*/
+  font-size: 4rem;
+  color: var(--background-color-dark);
+  /*Orange/Atomic Tangerine*/
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
 }
 
 #quote {
-    font-family: var(--third-font);
-    font-size: 1.5rem;
-    background-color: var(--background-color-dark);
-    color: var(--background-color-light);   
-    text-align: center;
-    padding: 16px;
-    border-radius: 8px;
-    margin: 0 auto;
-
+  font-family: var(--third-font);
+  font-size: 1.5rem;
+  background-color: var(--background-color-dark);
+  color: var(--background-color-light);
+  text-align: center;
+  padding: 16px;
+  border-radius: 8px;
+  margin: 0 auto;
 }
-
 
 /*Navbar styles*/
 
 #navbar {
-    font-weight: bold;
-    background-color: var(--primary-color);
+  font-weight: bold;
+  background-color: var(--primary-color);
 }
 
 #logo {
-    font-size: 2rem;
-    color: var(--highlight-color); /*Cream/Vanilla*/
-    padding-left: 16px;
+  font-size: 2rem;
+  color: var(--highlight-color); /*Cream/Vanilla*/
+  padding-left: 16px;
 }
 
 /*to color text in navbar*/
 .nav-link-color {
-    color: var(--highlight-color); /*Cream/Vanilla*/
+  color: var(--highlight-color); /*Cream/Vanilla*/
 }
-
 
 /*Footer*/
 #footer {
-    width: 100%;
-    padding: 20px;
-    background-color: var(--primary-color);
-    /* turquoise/moonstone*/
-    color: var(--highlight-color);
-    /*Cream/Vanilla*/
+  width: 100%;
+  padding: 20px;
+  background-color: var(--primary-color);
+  /* turquoise/moonstone*/
+  color: var(--highlight-color);
+  /*Cream/Vanilla*/
 }
 
 #footer .row {
-    display: flex;
-    flex-wrap: wrap; /* Allow wrapping on smaller screens */
-    justify-content: space-between; /* Distribute columns evenly */
-    align-items: center; /* Align items vertically */
-    margin: 0;
-    padding: 0;
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  justify-content: space-between; /* Distribute columns evenly */
+  align-items: center; /* Align items vertically */
+  margin: 0;
+  padding: 0;
 }
 
 #footer .col-md-4 {
-    text-align: left; /* Ensure content is aligned properly */
-    flex: 1; /* Ensure columns take up equal space */
+  text-align: left; /* Ensure content is aligned properly */
+  flex: 1; /* Ensure columns take up equal space */
 }
 
 #footer h3 {
-    color: var(--highlight-color); /*Cream/Vanilla*/
+  color: var(--highlight-color); /*Cream/Vanilla*/
 }
 
 .social-link {
-    color: var(--highlight-color); /*Cream/Vanilla*/
-    text-decoration: none;
+  color: var(--highlight-color); /*Cream/Vanilla*/
+  text-decoration: none;
 }
 
 /*to give some space around links in the footer*/
 .footer-link {
-    padding: 0.2rem;
-    color: var(--highlight-color); /*Cream/Vanilla*/
+  padding: 0.2rem;
+  color: var(--highlight-color); /*Cream/Vanilla*/
 }
 
 /*Contact page styles*/
 
 .contact-form {
-    padding: 32px;
-    color: var(--primary-color); /* turquoise/moonstone*/
-    font-family: var(--primary-font); /*Open Sans*/
+  padding: 32px;
+  color: var(--primary-color); /* turquoise/moonstone*/
+  font-family: var(--primary-font); /*Open Sans*/
 }
 
 #send-button {
-    background-color: var(--primary-color);
-    /* turquoise/moonstone*/
-    color: var(--highlight-color);
-    /*Cream/Vanilla*/
-    font-family: var(--primary-font); /*Open Sans*/
-    font-weight: bold;
-    padding: 12px;
-    border-radius: 8px;
-    cursor: pointer;
-    border: none;
-    transition: background-color 0.3s ease;
+  background-color: var(--primary-color);
+  /* turquoise/moonstone*/
+  color: var(--highlight-color);
+  /*Cream/Vanilla*/
+  font-family: var(--primary-font); /*Open Sans*/
+  font-weight: bold;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
 }
 
 /*Looking for a job page styles*/
 
 .job-section {
-    padding: 40px;
+  padding: 40px;
 }
 
 #arrow-img {
-    text-align: center;
-    padding: 16px;
-    font-size: 8rem;
+  text-align: center;
+  padding: 16px;
+  font-size: 8rem;
 }
 
 .job-card {
-    background-color: var(--background-color-dark);
-    /*Orange/Atomic Tangerine*/
-    color: var(--background-color-light);
-    /* Light pink/Babypwoder*/
-    height: 100%;
-    padding: 16px;
-    border-radius: 8px;
-    margin-bottom: 16px;
-    font-family: var(--primary-font); /*Open Sans*/
+  background-color: var(--background-color-dark);
+  /*Orange/Atomic Tangerine*/
+  color: var(--background-color-light);
+  /* Light pink/Babypwoder*/
+  height: 100%;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  font-family: var(--primary-font); /*Open Sans*/
 }
 
 .job-button {
-    background-color: var(--primary-color);
-    /* turquoise/moonstone*/
-    color: var(--background-color-light);
-    /* Light pink/Babypwoder*/
-    font-family: var(--primary-font); /*Open Sans*/
-    font-weight: bold;
-    padding: 12px;
-    border-radius: 8px;
-    cursor: pointer;
-    border: none;
-    transition: background-color 0.3s ease;
+  background-color: var(--primary-color);
+  /* turquoise/moonstone*/
+  color: var(--background-color-light);
+  /* Light pink/Babypwoder*/
+  font-family: var(--primary-font); /*Open Sans*/
+  font-weight: bold;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
 }
 
 .job-button:hover {
-    background-color: var(--highlight-color);
-    /*Cream/Vanilla*/
-    color: var(--primary-color);
-    /* turquoise/moonstone*/
+  background-color: var(--highlight-color);
+  /*Cream/Vanilla*/
+  color: var(--primary-color);
+  /* turquoise/moonstone*/
 }
 
 .job-image {
-    width: 100%;
-    max-width: 300px;
-    height: 200px;
-    display: block;
-    margin: 0 auto;
-    border-radius: 15px;
+  width: 100%;
+  max-width: 300px;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 15px;
 }
-
 
 /*Thank you page styles*/
 
 #phone-link {
-    text-decoration: none;
-    font-weight: bold;
-    color: #36454F;
+  text-decoration: none;
+  font-weight: bold;
+  color: #36454f;
+}
+
+/*Data Policy page styles*/
+
+#policy-header {
+  font-size: 3rem;
+  font-family: var(--secondary-font);
+  padding: 4px;
+  color: #36454f;
+}
+
+.list-header {
+  font-family: var(--primary-font);
+  padding: 4px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #36454f;
+
 }
