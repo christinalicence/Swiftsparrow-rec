@@ -6,16 +6,16 @@
   --primary-font: "Open Sans", sans-serif;
   --secondary-font: "Montserrat", sans-serif;
   --third-font: "Raleway", sans-serif;
-  --primary-color: #0fa3b1;
-  /* turquoise/moonstone*/
-  --secondary-color: #b5e2fa;
-  /* light-blue */
-  --highlight-color: #eddea4;
+  --primary-color: #246EB9;
+  /*blue sapphire*/
+  --secondary-color: #4CB944;
+   /*dark pastel green*/
+  --highlight-color: #F5EE9E;
   /*Cream/Vanilla*/
-  --background-color-light: #f9f7f3;
-  /* Light pink/Babypwoder*/
-  --background-color-dark: #f7a072;
-  /*Orange/Atomic Tangerine*/
+  --background-color-light: #FDFFFC;
+  /*baby powder*/
+  --background-color-dark: #F06543;
+  /*tomato red*/
 }
 
 /*Global styles*/
@@ -36,13 +36,11 @@ body {
 h1,
 h2 {
   color: var(--background-color-dark);
-  /*Orange/Atomic Tangerine*/
   font-family: var(--secondary-font);
 }
 
 .h3-right {
   color: var(--background-color-dark);
-  /*Orange/Atomic Tangerine*/
   font-family: var(--secondary-font);
   text-align: center;
   padding: 16px;
@@ -51,7 +49,6 @@ h2 {
 
 .h3-left {
   color: var(--background-color-dark);
-  /*Orange/Atomic Tangerine*/
   font-family: var(--secondary-font);
   text-align: left;
   padding: 40px;
@@ -94,7 +91,6 @@ h2 {
   padding-top: 72px;
   text-transform: uppercase;
   color: var(--background-color-dark);
-  /*Orange/Atomic Tangerine*/
   letter-spacing: 0.1rem;
 }
 
@@ -113,7 +109,6 @@ h2 {
   /*Raleway*/
   font-size: 4rem;
   color: var(--background-color-dark);
-  /*Orange/Atomic Tangerine*/
   width: 100%;
   text-align: center;
   margin: 0 auto;
@@ -138,7 +133,7 @@ h2 {
 
 #logo {
   font-size: 2rem;
-  color: var(--highlight-color); /*Cream/Vanilla*/
+  color: var(--highlight-color);
   padding-left: 16px;
 }
 
@@ -190,7 +185,7 @@ h2 {
 
 .contact-form {
   padding: 32px;
-  color: var(--primary-color); /* turquoise/moonstone*/
+  color: #36454f;
   font-family: var(--primary-font); /*Open Sans*/
 }
 
@@ -208,7 +203,7 @@ h2 {
 }
 
 #cv-send {
-  color: var(--primary-color);
+  color: #36454f;
 }
 /*Looking for a job page styles*/
 
