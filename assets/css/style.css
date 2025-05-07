@@ -135,8 +135,14 @@ h2 {
 
 #logo {
   font-size: 2rem;
-  color: var(--highlight-color);
+  color: var(--background-color-dark);
   padding-left: 16px;
+}
+
+#logo:hover {
+  color: var(--highlight-color);
+  text-decoration: none;
+  transition: background-color 0.3s ease;
 }
 
 /*to color text in navbar*/
@@ -177,10 +183,22 @@ h2 {
   text-decoration: none;
 }
 
+.social-link:hover {
+  color: var(--background-color-dark);
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
 /*to give some space around links in the footer*/
 .footer-link {
   padding: 0.2rem;
-  color: var(--highlight-color); /*Cream/Vanilla*/
+  color: var(--highlight-color); 
+}
+
+.footer-link:hover {
+  color: var(--background-color-dark);
+  text-decoration: none;
+  transition: background-color 0.3s ease;
 }
 
 /*Contact page styles*/
