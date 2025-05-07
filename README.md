@@ -68,12 +68,12 @@ Google Fonts were used. Open Sans is used for the majority of text. Montserrat i
  The website should have the following features:
  - A home page with information about the company. This should include some reccomendation quotes.
  - A "Looking for a Job" page with clear information to help candidates understand the roles Swiftsparrow works on.
- - A "Contact Us" Page with a form that allows users to send over information.
+ - A "Contact Us" Page with a form that allows users to send information and their CV.
  - A "Thank you" page that appears when someone has submitted the form.
  - A "Data Policy" page that is mostly text and explains the company policy.
  - An easy to use navigation menu on all pages.
  - Visually pleasing footer on all pages with contact details and a link to the data policy.
- - The website should be fully responsive across different screensizes.
+ - The website should be fully responsive across different devices.
  - The website should have good accessibility, with alternative text for pictures, semantic HTML and adequate colour contrasts.
 
 ## Testing

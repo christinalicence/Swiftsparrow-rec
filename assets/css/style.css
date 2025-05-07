@@ -86,12 +86,14 @@ h2 {
 /*Home-page styles*/
 
 #hero-text {
-  font-size: 8rem;
+  text-align: center;
+  font-size: 6rem;
   padding: 40px;
   padding-top: 72px;
   text-transform: uppercase;
   color: var(--background-color-dark);
   letter-spacing: 0.1rem;
+  max-width: 100%; /* Ensure the text does not exceed the column width */
 }
 
 #bird-image img {
@@ -275,3 +277,44 @@ h2 {
   text-decoration: none;
 }
 
+
+/*Media queries*/
+@media (max-width: 768px) {
+  #hero-text {
+    font-size: 4rem;
+    padding: 20px;
+    padding-top: 40px;
+  }
+
+  .sub-hero-text {
+    font-size: 2rem;
+    padding: 16px;
+  }
+
+  .quote {
+    font-size: 1rem;
+    padding: 16px;
+  }
+
+  .h3-left {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .h3-right {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .normal-text {
+    font-size: medium;
+    padding: 24px;
+  }
+
+  #bird-image img {
+    max-width: 100%;
+    height: auto;
+    padding: 16x;
+    padding-top: 0px;
+  }
+}
