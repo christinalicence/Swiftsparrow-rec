@@ -185,7 +185,7 @@ h2 {
 
 /*Contact page styles*/
 
-.contact-form {
+#contact-form {
   padding: 32px;
   color: #36454f;
   font-family: var(--primary-font); /*Open Sans*/
@@ -210,7 +210,7 @@ h2 {
 /*Looking for a job page styles*/
 
 .job-section {
-  padding: 36px;
+  justify-items: space-between;
 }
 
 #arrow-img {
@@ -221,14 +221,12 @@ h2 {
 
 .job-card {
   background-color: var(--background-color-dark);
-  /*Orange/Atomic Tangerine*/
   color: var(--background-color-light);
-  /* Light pink/Babypwoder*/
-  height: 100%;
   padding: 16px;
   border-radius: 8px;
   margin-bottom: 16px;
-  font-family: var(--primary-font); /*Open Sans*/
+  font-family: var(--primary-font); 
+  align-items: center;
 }
 
 
@@ -312,9 +310,14 @@ h2 {
   }
 
   #bird-image img {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
     padding: 16x;
     padding-top: 0px;
+  }
+
+  .job-card {
+    height: auto;
+    padding: 16px;
   }
 }
