@@ -136,19 +136,31 @@ h2 {
 
 #logo {
   font-size: 2rem;
-  color: var(--background-color-dark);
+  color: var(--background-color-light);
   padding-left: 16px;
 }
 
 #logo:hover {
-  color: var(--highlight-color);
+  color: var(--secondary-color);
   text-decoration: none;
   transition: background-color 0.3s ease;
 }
 
 /*to color text in navbar*/
 .nav-link-color {
-  color: var(--highlight-color); /*Cream/Vanilla*/
+  color: var(--background-color-light);
+}
+
+.nav-link-color:hover {
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+#navbar .active {
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: background-color 0.3s ease;
 }
 
 /*Footer*/
@@ -156,9 +168,7 @@ h2 {
   width: 100%;
   padding: 20px;
   background-color: var(--primary-color);
-  /* turquoise/moonstone*/
-  color: var(--highlight-color);
-  /*Cream/Vanilla*/
+  color: var(--background-color-light);
 }
 
 #footer .row {
@@ -173,17 +183,18 @@ h2 {
   flex: 1; /* Ensure columns take up equal space */
 }
 
-#footer h3 {
-  color: var(--highlight-color); /*Cream/Vanilla*/
+#footer h2 {
+  color: var(--background-color-light); 
+  size: 1rem;
 }
 
 .social-link {
-  color: var(--highlight-color); /*Cream/Vanilla*/
+  color: var(--background-color-light); 
   text-decoration: none;
 }
 
 .social-link:hover {
-  color: var(--background-color-dark);
+  color: var(--secondary-color);
   text-decoration: none;
   transition: background-color 0.3s ease;
 }
