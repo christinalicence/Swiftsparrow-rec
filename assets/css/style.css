@@ -191,17 +191,18 @@ h2 {
 /*Contact page styles*/
 
 #contact-form {
+  background-color: var(--background-color-light);
   padding: 32px;
   color: #36454f;
-  font-family: var(--primary-font); /*Open Sans*/
+  font-family: var(--primary-font); 
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 #send-button {
   background-color: var(--primary-color);
-  /* turquoise/moonstone*/
   color: var(--highlight-color);
-  /*Cream/Vanilla*/
-  font-family: var(--primary-font); /*Open Sans*/
+  font-family: var(--primary-font); 
   font-weight: bold;
   padding: 12px;
   border-radius: 8px;
