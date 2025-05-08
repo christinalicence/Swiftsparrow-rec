@@ -162,8 +162,6 @@ h2 {
 }
 
 #footer .row {
-  display: flex;
-  flex-wrap: wrap; /* Allow wrapping on smaller screens */
   justify-content: space-between; /* Distribute columns evenly */
   align-items: center; /* Align items vertically */
   margin: 0;
@@ -185,18 +183,6 @@ h2 {
 }
 
 .social-link:hover {
-  color: var(--background-color-dark);
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-}
-
-/*to give some space around links in the footer*/
-.footer-link {
-  padding: 0.2rem;
-  color: var(--highlight-color); 
-}
-
-.footer-link:hover {
   color: var(--background-color-dark);
   text-decoration: none;
   transition: background-color 0.3s ease;
