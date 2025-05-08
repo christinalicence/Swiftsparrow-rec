@@ -185,7 +185,6 @@ h2 {
 
 #footer h2 {
   color: var(--background-color-light); 
-  size: 1rem;
 }
 
 .social-link {
@@ -225,10 +224,6 @@ h2 {
   color: #36454f;
 }
 /*Looking for a job page styles*/
-
-.job-section {
-  justify-items: space-between;
-}
 
 #arrow-img {
   text-align: center;
