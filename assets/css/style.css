@@ -125,6 +125,9 @@ h2 {
   border-radius: 8px;
 }
 
+#graph-image {
+  max-width: fit-content;
+}
 
 /*Navbar styles*/
 
