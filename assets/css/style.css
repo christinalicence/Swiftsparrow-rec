@@ -99,7 +99,7 @@ h2 {
 
 #bird-image img {
   width: 100%;
-  max-width: 500px;
+  max-width: 100%;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -109,7 +109,6 @@ h2 {
 .sub-hero-text {
   text-transform: uppercase;
   font-family: var(--third-font);
-  /*Raleway*/
   font-size: 4rem;
   color: var(--background-color-dark);
   width: 100%;
@@ -336,7 +335,7 @@ h2 {
 
 @media screen and (min-width: 992px) {
   #hero-text {
-    font-size: 10rem;
+    font-size: 11rem;
   }
   #bird-image img {
     max-width: 700px;
@@ -344,5 +343,6 @@ h2 {
   }
 .sub-hero-text {
   text-align: left;
+  font-size: 5rem;
 }
 }
