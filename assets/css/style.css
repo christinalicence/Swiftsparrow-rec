@@ -88,13 +88,12 @@ h2 {
 
 #hero-text {
   text-align: center;
-  font-size: 8rem;
-  padding: 40px;
+  font-size: 7rem;
+  padding-left: 40px;
   padding-top: 72px;
   text-transform: uppercase;
   color: var(--background-color-dark);
   letter-spacing: 0.1rem;
-  max-width: 100%; /* Ensure the text does not exceed the column width */
 }
 
 #bird-image img {
@@ -333,7 +332,7 @@ h2 {
   }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1200px) {
   #hero-text {
     font-size: 11rem;
   }
