@@ -58,9 +58,7 @@ h2 {
 
 .normal-text {
   font-family: var(--primary-font);
-  /*Open Sans*/
   color: #36454f;
-  /*dark-gray*/
   padding: 48px;
   font-size: large;
 }
@@ -71,11 +69,8 @@ h2 {
 
 .custom-button {
   background-color: var(--primary-color);
-  /* turquoise/moonstone*/
   color: var(--background-color-light);
-  /* Light pink/Babypwoder*/
-  font-family: var(--primary-font); /*Open Sans*/
-  font-weight: bold;
+  font-family: var(--primary-font); 
   padding: 12px;
   border-radius: 8px;
   border: none;
@@ -84,7 +79,6 @@ h2 {
 
 .custom-button:hover {
   background-color: var(--highlight-color);
-  /*Cream/Vanilla*/
   color: var(--primary-color);
 }
 
@@ -237,7 +231,6 @@ h2 {
 
 .job-card {
   background-color: var(--background-color-dark);
-  color: var(--background-color-light);
   padding: 16px;
   border-radius: 8px;
   margin-bottom: 16px;
