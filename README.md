@@ -207,6 +207,8 @@ The Data Policy page had some errors from an incorrectly written email link. I c
 ## 5. Image Credits
 
 - Bird picture created by developer using [Canva](https://www.canva.com/).
+- The chart image on the home page is from [Pixabay](https://pixabay.com/). The image is by [krzysztof-m](https://pixabay.com/users/krzysztof-m-1363864/).
+- The graph image on the home page is from [Pixabay](https://pixabay.com/). The image is by [TheDigitalArtist](https://pixabay.com/users/thedigitalartist-202249/).
 - The image used for the Data Analyst picture is from [Pixabay](https://pixabay.com/). The image is by [Pete Linforth](https://pixabay.com/users/thedigitalartist-202249/). 
 - The image used for Data Architect picture is from [Pixabay](https://pixabay.com/). It is by [Jensen Art Co](https://pixabay.com/users/jensenartofficial-31380959/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7644533)
 - The image used for the Pricing Analyst picture is from [Pixabay](https://pixabay.com/). The artist is [Wynn Pointaux](https://pixabay.com/users/wynpnt-868761/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2296821)
