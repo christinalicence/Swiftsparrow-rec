@@ -1,5 +1,7 @@
 # Swiftsparrow
- 
+
+![Mock up of home page on different devices](assets/docs-images/mock-ups.jpg)
+
 ## Table of Contents
 
 1. User Experience
@@ -144,9 +146,29 @@ I used the [Wave](https://wave.webaim.org/extension/) Chrome extension tool to t
 
 I rectified this by changing the footer in all the headers to h2 and adjusting the styling in my CSS file.
 
+It also picked up that the link to the data policy in the page didn't have enough detail -
+
+![Image of data policy link error flagged](assets/docs-images/data-policy-link-error.jpg)
+
+I corrected this on each page manually.
+
+Wave didn't find any other errors on the other pages.
 
 ### 3.3 Lighthouse - Testing for Performance and Accessibility
 
+I was aiming for 90% performance across the site using Lighthouse. 
+
+The home page was very near this standard -
+
+![The Lighthouse report for the Home Page](assets/docs-images/home-page-lighthouse.jpg)
+
+There were some issues flagged with the Looking for a Job Page -
+
+![The Lighthouse report for the Looking for a Job Page](assets/docs-images/lighthouse-job-page.jpg)
+
+I had some images that were jpegs, they have now been converted to png.
+
+The Get in Touch Page and Data Policy Page both performed well on the tests.
 
 ### 3.4 CSS Validator
 
