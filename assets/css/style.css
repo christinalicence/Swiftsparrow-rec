@@ -65,6 +65,10 @@ h2 {
   font-size: large;
 }
 
+.words-center {
+  text-align: center;
+}
+
 .custom-button {
   background-color: var(--primary-color);
   /* turquoise/moonstone*/
@@ -97,8 +101,6 @@ h2 {
 }
 
 #bird-image img {
-  width: 100%;
-  max-width: 100%;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -125,8 +127,8 @@ h2 {
   border-radius: 8px;
 }
 
-#graph-image {
-  max-width: fit-content;
+#chart-image {
+  padding: 16px;
 }
 
 /*Navbar styles*/
@@ -333,6 +335,10 @@ h2 {
   .job-card {
     height: auto;
     padding: 16px;
+  }
+
+  .words-center {
+    text-align: left;
   }
 }
 
