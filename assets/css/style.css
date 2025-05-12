@@ -8,8 +8,8 @@
   --third-font: "Raleway", sans-serif;
   --primary-color: #246EB9;
   /*blue sapphire*/
-  --secondary-color: #4CB944;
-   /*dark pastel green*/
+  --secondary-color: #FCD4C5;
+   /*lighter pink*/
   --highlight-color: #F5EE9E;
   /*Cream/Vanilla*/
   --background-color-light: #FDFFFC;
@@ -40,7 +40,7 @@ h2 {
   font-family: var(--secondary-font);
 }
 
-.h3-right {
+.h2-right {
   color: var(--background-color-dark);
   font-family: var(--secondary-font);
   text-align: center;
@@ -129,12 +129,13 @@ h2 {
 /*Navbar styles*/
 
 #navbar {
-  font-weight: bold;
+  font-weight: bolder;
   background-color: var(--primary-color);
+  font-size: 1.2rem;
 }
 
 #logo {
-  font-size: 2rem;
+  font-size: 2.1rem;
   color: var(--background-color-light);
   padding-left: 16px;
 }
@@ -182,7 +183,7 @@ h2 {
   flex: 1; /* Ensure columns take up equal space */
 }
 
-#footer h2 {
+#footer h3 {
   color: var(--background-color-light); 
 }
 
@@ -256,6 +257,11 @@ h2 {
   font-weight: bold;
   color: #36454f;
 }
+#phone-link:hover {
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
 
 /*Data Policy page styles*/
 
@@ -281,9 +287,15 @@ h2 {
 
 .policy-link {
   color: var(--primary-color);
-  /* turquoise/moonstone*/
   text-decoration: none;
 }
+
+.policy-link:hover {
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
 
 
 /*Media queries*/
