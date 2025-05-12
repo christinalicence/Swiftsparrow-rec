@@ -200,6 +200,10 @@ h2 {
 
 /*Contact page styles*/
 
+#contact-header {
+  padding: 32px;
+}
+
 #contact-form {
   background-color: var(--background-color-light);
   padding: 32px;
