@@ -297,10 +297,10 @@ The Data Policy page had some errors from an incorrectly written email link. I c
 
 ## 6. Technologies Used
 
-    - HTML 5 was used for the main body of the code.
-    - CSS3 was used for the styling.
-    - The website was developed using Visual Studio.
-    - The website was hosted and deployed using Github.
+- HTML 5 was used for the main body of the code.
+- CSS3 was used for the styling.
+- The website was developed using Visual Studio.
+- The website was hosted and deployed using Github.
 
 ## 7. Deployment
 
