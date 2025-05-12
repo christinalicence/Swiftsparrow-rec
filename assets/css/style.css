@@ -204,6 +204,13 @@ h2 {
   padding: 32px;
 }
 
+#contact-sub-header {
+  font-size: 2rem;
+  padding: 40px;
+  text-transform: uppercase;
+  text-align: right;
+}
+
 #contact-form {
   background-color: var(--background-color-light);
   padding: 32px;
@@ -350,6 +357,13 @@ h2 {
   .words-center {
     text-align: left;
   }
+
+  #contact-sub-header {
+    font-size: 1.5rem;
+    padding: 16px;
+    text-align: center;
+  }
+
 }
 
 @media screen and (min-width: 1200px) {

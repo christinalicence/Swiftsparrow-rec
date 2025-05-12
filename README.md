@@ -106,9 +106,22 @@ The colours were designed to be bright and standout, but still 'friendly' and ea
 ## 2. Features
 
  The website should have the following features:
- - A home page with information about the company. This should include some reccomendation quotes. This was built using Bootstrap grid system.
+ 
+ - A home page with information about the company. This should include a reccomendation quotes. It is built using Bootstrap grid system.
+ - The purpose of this page is to give a user a visually appealing and simple introduction to the company.
+
+ ![Image of mock up of home page](assets/docs-images/mock-ups.jpg)
+
  - A "Looking for a Job" page with clear information to help candidates understand the roles Swiftsparrow works on. This was built using Bootstrap grid system and cards for the job types.
+ - The purpose of this feature is to allow users to get a greater depth of the work the company does 
+
+ ![Image of mock up of looking for a job page](assets/docs-images/mock-up-jobs.jpg)
+
  - A "Contact Us" Page with a form that allows users to send information and their CV. The form was built using Bootstrap.
+- The purpose of this page is to allow people to contact the business and submit a CV if they want to.
+
+![]
+
  - A "Thank you" page that appears when someone has submitted the form.
  - A "Data Policy" page that is mostly text and explains the company policy.
  - An error-404 page that appears when the server cannot access the specific page that a user has entered the url for. 
